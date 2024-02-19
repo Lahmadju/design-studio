@@ -509,6 +509,7 @@
 	.article__container2_container_contact {
 		order: 4;
 		width: 340px;
+		margin: 0 18px;
 		margin-top: 41.79px;
 		margin-bottom: 49px;
 		gap: 24px;
