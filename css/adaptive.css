@@ -58,6 +58,10 @@
 	.section__container_project {
 		display: flex;
 		flex-flow: column nowrap;
+		justify-content: flex-start;
+		background: #181818;
+		height: auto;
+		padding-bottom: 884px;
 	}
 
 	.section__container_project-slider {
@@ -71,6 +75,7 @@
 
 	.section__container_project-slider_info {
 		margin: 0 18px;
+		height: 669px;
 	}
 
 	.section__container_project-slider_info-text {
@@ -83,7 +88,6 @@
 		flex-flow: column nowrap;
 		align-items: center;
 		gap: 22px;
-		order: 1;
 		width: 311px;
 		margin: 36px 14px;
 		margin-top: 36px;
@@ -117,18 +121,52 @@
 
 	.section__container_project-slider_info-figure {
 		display: flex;
+		align-items: center;
+	}
+
+	.section__container_project-slider_info-figure > img {
+		position: relative;
+	}
+
+	.section__container_project-slider_info-figure_button {
+		position: absolute;
+		display: flex;
+		width: 312px;
+		gap: auto;
+		justify-content: space-between;
+		margin: 0 14px;
+
+	}
+
+	.section__container_project-slider_info-figure_button-btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 36px;
+		height: 36px;
+		background-color: #E3B873;
+		border: none;
+		border-radius: 50%;
+	}
+
+	.section__container_project-slider_info-figure_button-btn > img {
+		width: 6.26px;
+		height: 10.96px;
 	}
 
 	.section__container_project-slider_info-category {
 		display: flex;
 		flex-flow: row wrap;
-		order: 3;
 		width: 341px;
+		height: 145px;
+		margin-top: 36px;
+		margin-bottom: 58px;
 	}
 
 	.section__container_project-slider_info-category-description:nth-child(1) {
 		width: 99px;
 		margin: 0 61px 27px 0;
+		height: 68px;
 	}
 
 	.section__container_project-slider_info-category-description:nth-child(2) {
@@ -155,5 +193,355 @@
 
 	.section__container_project-slider_info-category-description > p {
 		font-size: 11px;
+	}
+
+	.section__container_online {
+		width: 340px;
+		margin: 0 18px;
+		margin-top: -825px;
+	}
+
+	.section__container_online-title h2 {
+		font-size: 22px;
+	}
+
+	.section__container_online-image {
+		width: 340px;
+		height: 207px;
+		margin-bottom: 28px;
+		margin-top: 40.21px;
+	}
+
+	.section__container_online-image > img {
+		width: 340px;
+		height: 207px;
+	}
+
+	.section__container_online-image_btn {
+		width: 37px;
+		height: 37px;
+	}
+
+	.section__container_online-image_btn > img {
+		width: 12.19px;
+		height: 12.19px;
+	}
+
+	.section__container_online-text {
+		width: 340px;
+		height: 106.95px;
+		font-size: 11px;
+		color: #FFF;
+		margin-top: 21.46px;
+	}
+
+	.section__container_online-form {
+		flex-flow: column nowrap;
+		width: 340px;
+		height: 153px;
+		margin-top: 61px;
+		margin-bottom: 26.54px;
+		gap: 63px;
+	}
+
+	.section__container_online-form_label {
+		color: #FFFFFF50;
+		height: 45px;
+		width: 340px;
+	}
+
+	.section__container_online-form_label-input {
+		border-bottom: 1px solid #FFFFFF50;
+		height: 26px;
+		color: #FFF;
+		padding: 0;
+	}
+
+	.section__container_online-form_label-input::placeholder {
+		color: #FFF;
+	}
+
+	.section__container_online-accept {
+		color: #FFF;
+		height: 18px;
+	}
+
+	.section__container_online-form-btn {
+		display: none;
+	}
+
+	.section__container_online-form-btn1 {
+		display: block;
+		padding: 20px 0 19px 0;
+		width: 340px;
+		height: 51px;
+		margin-top: 62.43px;
+	}
+
+	.section__container_types {
+		padding-bottom: 266px;
+	}
+
+	.section__container_types-title {
+		margin-top: 58px;
+		margin-bottom: 40px;
+	}
+
+	.section__container_types-carts {
+		gap: 59px;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+
+	.section__container_types-carts_cart {
+		align-items: flex-start;
+		height: 484px;
+		width: 340px;
+	}
+
+	.section__container_types-carts_cart > img {
+		width: 340px;
+		height: 365.15px;
+	}
+
+	.section__container_types-carts_cart-info {
+		width: 198px;
+		margin-top: -142.15px;
+		height: 183px;
+		padding: 21px 41px 37px 31px;
+	}
+
+	.section__container_types-carts_cart-info_text {
+		height: 183px;
+		padding: 0;
+	}
+
+	.section__container_types-carts_cart-info_text > ul {
+		height: 183px;
+		font-size: 15px;
+		line-height: 138.6%;
+	}
+
+	.section__container_types-carts_cart-info_text > ul > li {
+		font-size: 13px;
+		line-height: 169.8%;
+	}
+
+	.section__container_types-carts_cart-info-btn {
+		width: 190.43px;
+		height: 40px;
+		font-size: 15px;
+		margin: 0;
+		margin-top: 18px;
+		margin-left: -31px;
+	}
+
+	.section__container_types-carts_cart-info-btn:nth-last-child(1) {
+		padding: 11.36px 19.21px;
+	}
+
+	.section__container_types-carts_cart-info-btn:nth-child(2) {
+		padding: 11.97px 16.21px;
+	}
+
+	.section__container_types-carts_cart-info-btn:nth-last-child(1) {
+		padding: 11.16px 14.71px;
+	}
+
+	.article {
+		background: #181818;
+	}
+
+	.acticle__application {
+		display: none;
+	}
+
+	.article__container {
+		display: none;
+	}
+
+	.article__category {
+		width: 375px;
+		height: 328px;
+		background: none;
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		margin-top: -211px;
+	}
+
+	.article__category_types {
+		display: none;
+	}
+
+	.article__category_images {
+		display: none;
+	}
+
+	.article__category_figure {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		height: 328px;
+	}
+
+	.article__category_figure > h2 {
+		font-size: 22px;
+		line-height: 138.6%;
+		margin-bottom: 24px;
+	}
+
+	.article__category_figure > div {
+		display: flex;
+		align-items: center;
+		height: 242px;
+	}
+
+	.article__category_figure > img {
+		position: relative;
+		height: 340px;
+		height: 242px;
+	}
+
+	.article__category_figure-button {
+		position: absolute;
+		display: flex;
+		width: 312px;
+		gap: auto;
+		justify-content: space-between;
+		margin: 0 14px;
+
+	}
+
+	.article__category_figure-button_btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 36px;
+		height: 36px;
+		background-color: #E3B873;
+		border: none;
+		border-radius: 50%;
+	}
+
+	.article__category_figure-button_btn > img {
+		width: 6.26px;
+		height: 10.96px;
+	}
+
+	.article__container2 {
+		width: 375px;
+		background-image: none;
+		background: none;
+	}
+
+	.article__container2-linear {
+		display: none;
+	}
+
+	.article__container2-container {
+		background: #181818;
+	}
+
+	.article__container2-container_questions {
+		width: 375px;
+		height: auto;
+		margin-top: 0;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.article__container2-container_questions_info {
+		width: 340px;
+		align-items: flex-start;
+		margin: 0 18px;
+		margin-top: 52px;
+	}
+
+	.article__container2-container_questions_info-form {
+		flex-flow: column nowrap;
+		gap: 63px;
+		width: 340px;
+	}
+
+	.article__container2-container_questions_info-form-label {
+		width: 340px;
+	}
+
+	.article__container2-container_questions_info-form-label:first-child {
+		margin: 0;
+	}
+
+	.article__container2-container_questions_info-form-label:nth-last-child(1) {
+		width: 340px;
+	}
+
+	.article__container2-container_questions_info-form-label_input {
+		border-bottom: 1px solid #FFFFFF50;
+		padding: 0;
+		padding-bottom: 8px;
+		font-size: 14px;
+		height: 28px;
+	}
+
+	.article__container2-container_questions_info-accept {
+		margin-top: 21.63px;
+		margin-bottom: 67.33px;
+	}
+
+	.article__container2-container_questions_info-btn {
+		width: 340px;
+		height: 51px;
+	}
+
+	.article__container2_container_cart {
+		margin-top: 46px;
+		order: 3;
+		height: 255px;
+	}
+
+	.article__container2_container_cart > img {
+		height: 255px;
+		width: 340px;
+		margin: 0;
+	}
+
+	.article__container2_container_contact {
+		order: 4;
+		width: 340px;
+		margin-top: 41.79px;
+		margin-bottom: 49px;
+		gap: 24px;
+	}
+
+	.article__container2_container_contact-h2 {
+		font-size: 18px;
+		line-height: 138.6%;
+		letter-spacing: 0;
+	}
+
+	.article__container2_container_contact-links {
+		gap: 20.89px;
+	}
+
+	.article__container2_container_contact-links > a {
+		width: 39px;
+		height: 39px;
+	}
+
+	.article__container2_container_contact-links > a:nth-child(1) > img {
+		width: 19.5px;
+		height: 15.6px;
+		padding: 12.26px 9.75px 11.14px 9.75px;
+	}
+
+	.article__container2_container_contact-links > a:nth-child(2) > img {
+		width: 16.71px;
+		height: 16.71px;
+		padding: 11.7px 11.14px 10.59px 11.14px;
+	}
+
+	.footer {
+		display: none;
 	}
 }
