@@ -638,6 +638,8 @@
   width: 1440px;
   margin-top: 124px;
   margin-bottom: 129.56px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article__application_info {
@@ -813,6 +815,8 @@
   background: url(../images/png/category-background.png) no-repeat;
   background-position: 0 112.53px;
   margin-bottom: 69.14px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article__category_types {
@@ -878,6 +882,10 @@
   flex-flow: column nowrap;
   gap: 36.77px;
   margin-top: 0;
+}
+
+.article__category_figure {
+  display: none;
 }
 
 .article__container {
@@ -997,6 +1005,8 @@
   background-position: 0 0;
   width: 1440px;
   height: 955px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article__container2-linear {
