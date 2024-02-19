@@ -358,9 +358,6 @@
   gap: 50px;
 }
 
-.section__container_project-slider_nav {
-}
-
 .section__container_project-slider_nav-list {
   display: flex;
   flex-flow: row nowrap;
