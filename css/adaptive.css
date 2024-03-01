@@ -1163,9 +1163,11 @@
 		justify-content: flex-start;
 	}
 
+	.main__container_image {
+		height: 51%;
+	}
+
 	.main__container_text {
-		max-width: 1256px;
-		width: 1256px;
 		left: 42px;
 	}
 }
